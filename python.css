@@ -1,0 +1,46 @@
+body{
+}
+.firstdivision{
+    position: relative;
+    background-image: url("pythonbackground.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1250px;
+    height: 560px;
+}
+.firstheading{
+    color: rgb(62, 13, 240);
+    text-align: center;
+    position: relative;
+    top: 60px;
+    width: 700px;
+    height: 40px;
+    left: 200px;
+}
+.firstheading:hover{
+    background-color: brown;
+    color: red;
+}
+.seconddivision{
+    background-image: url("python1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    height: 350px;
+    width: 350px;
+}
+.secondheading{
+    color: chartreuse;
+    text-align: center;
+    margin-top: auto;
+
+}
+.seconddivision:hover{
+    background-size: 0;
+    background-color: rgb(28, 28, 27);
+    color: crimson;
+}
