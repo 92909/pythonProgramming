@@ -1,13 +1,15 @@
+import math
+
 class circle:
-    def __init__(self, radius):
+    def __init__(self, pi, radius):
+        self.pi = pi
         self.radius = radius
     def get_area(self):
-        area = 3.142 * self.radius ** 2
-        print(area)
-    def get_circumference(self):
-        circumference = 3.142 * (self.radius * 2)
-        print(circumference)
-c = circle(7)
-print(c)
+        area = math.pi * (self.radius ** 2)
+        print(f"The area of the circle is : {area}")
+    def circumference(self):
+        circumference = math.pi * (self.radius * 2)
+        print(f"The circumference of the circle is : {circumference}")
+c = circle(math.pi, int(input("Enter the radius of the circle : ")))
 c.get_area()
-c.get_circumference()
+c.circumference()
