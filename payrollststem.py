@@ -1,5 +1,6 @@
-import math
 #creating na simple payroll program
+import math
+
 class employee:
     def __init__(self, employee_id, employee_name, weekly_salary):
         self.employee_id = employee_id
